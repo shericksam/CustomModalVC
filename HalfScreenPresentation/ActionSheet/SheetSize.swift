@@ -1,9 +1,9 @@
 //
-//  SheetDockSize.swift
-//  FittedSheets
+//  SheetSize.swift
+//  ellavevirtual
 //
-//  Created by Gordon Tucker on 8/27/18.
-//  Copyright © 2018 Gordon Tucker. All rights reserved.
+//  Created by Digital on 22/07/21.
+//  Copyright © 2021 Scotiabank México. All rights reserved.
 //
 
 #if os(iOS) || os(tvOS) || os(watchOS)

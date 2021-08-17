@@ -83,7 +83,7 @@ class ViewController: UIViewController {
         // Alternative way to present the new view controller
 
         
-        let sheet = GenericActionSheetRouter.createGenericActionSheetViewController(controller: vc, initSize: .percent(0.40))
+        let sheet = ActionSheetRouter.createActionSheetViewController(controller: vc, initSize: .fullscreen)
 //        vc.modalPresentationStyle = .overCurrentContext
         
         // keep false
