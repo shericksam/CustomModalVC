@@ -76,10 +76,18 @@ class ViewController: UIViewController {
     
     // To be updated
     @objc func presentModalController() {
-        let vc = CustomModalViewController()
-        vc.modalPresentationStyle = .overCurrentContext
+        print("presentModalController--->")
+//        let vc = CustomModalViewController()
+        let storyboard = UIStoryboard(name: "OtherVC", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "Other1ViewController")
+        // Alternative way to present the new view controller
+
+        
+        let sheet = GenericActionSheetRouter.createGenericActionSheetViewController(controller: vc, initSize: .percent(0.40))
+//        vc.modalPresentationStyle = .overCurrentContext
+        
         // keep false
         // modal animation will be handled in VC itself
-        self.present(vc, animated: false)
+        self.present(sheet, animated: false)
     }
 }

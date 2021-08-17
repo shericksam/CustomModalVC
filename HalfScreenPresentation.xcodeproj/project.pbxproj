@@ -14,6 +14,15 @@
 		86131C33266C7F19007421A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86131C32266C7F19007421A7 /* Assets.xcassets */; };
 		86131C36266C7F19007421A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86131C34266C7F19007421A7 /* LaunchScreen.storyboard */; };
 		86131C3E266CB420007421A7 /* CustomModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86131C3D266CB420007421A7 /* CustomModalViewController.swift */; };
+		ED4EE04726AA0C3100EE4A13 /* SheetSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4EE04626AA0C3100EE4A13 /* SheetSize.swift */; };
+		ED58419026A5E0FF00D80CF1 /* OtherVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED58418E26A5E0FF00D80CF1 /* OtherVC.storyboard */; };
+		ED58419126A5E0FF00D80CF1 /* Other1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED58418F26A5E0FF00D80CF1 /* Other1ViewController.swift */; };
+		ED82B8F226A4F1A2001AC7DC /* GenericActionSheetInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED82B8EC26A4F1A2001AC7DC /* GenericActionSheetInteractor.swift */; };
+		ED82B8F326A4F1A2001AC7DC /* GenericActionSheetRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED82B8ED26A4F1A2001AC7DC /* GenericActionSheetRouter.swift */; };
+		ED82B8F426A4F1A2001AC7DC /* GenericActionSheetPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED82B8EE26A4F1A2001AC7DC /* GenericActionSheetPresenter.swift */; };
+		ED82B8F526A4F1A2001AC7DC /* GenericActionSheetContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED82B8EF26A4F1A2001AC7DC /* GenericActionSheetContract.swift */; };
+		ED82B8F626A4F1A2001AC7DC /* GenericActionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED82B8F026A4F1A2001AC7DC /* GenericActionSheetViewController.swift */; };
+		ED82B8F726A4F1A2001AC7DC /* GenericActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED82B8F126A4F1A2001AC7DC /* GenericActionSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,15 @@
 		86131C35266C7F19007421A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86131C37266C7F19007421A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86131C3D266CB420007421A7 /* CustomModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModalViewController.swift; sourceTree = "<group>"; };
+		ED4EE04626AA0C3100EE4A13 /* SheetSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetSize.swift; sourceTree = "<group>"; };
+		ED58418E26A5E0FF00D80CF1 /* OtherVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OtherVC.storyboard; sourceTree = "<group>"; };
+		ED58418F26A5E0FF00D80CF1 /* Other1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Other1ViewController.swift; sourceTree = "<group>"; };
+		ED82B8EC26A4F1A2001AC7DC /* GenericActionSheetInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericActionSheetInteractor.swift; sourceTree = "<group>"; };
+		ED82B8ED26A4F1A2001AC7DC /* GenericActionSheetRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericActionSheetRouter.swift; sourceTree = "<group>"; };
+		ED82B8EE26A4F1A2001AC7DC /* GenericActionSheetPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericActionSheetPresenter.swift; sourceTree = "<group>"; };
+		ED82B8EF26A4F1A2001AC7DC /* GenericActionSheetContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericActionSheetContract.swift; sourceTree = "<group>"; };
+		ED82B8F026A4F1A2001AC7DC /* GenericActionSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericActionSheetViewController.swift; sourceTree = "<group>"; };
+		ED82B8F126A4F1A2001AC7DC /* GenericActionSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericActionSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,8 @@
 		86131C28266C7F0F007421A7 /* HalfScreenPresentation */ = {
 			isa = PBXGroup;
 			children = (
+				ED58418D26A5E0F200D80CF1 /* otherVC */,
+				ED82B8EB26A4F1A2001AC7DC /* GenericActionSheet */,
 				86131C29266C7F0F007421A7 /* AppDelegate.swift */,
 				86131C2B266C7F0F007421A7 /* SceneDelegate.swift */,
 				86131C2D266C7F0F007421A7 /* ViewController.swift */,
@@ -68,6 +88,29 @@
 				86131C37266C7F19007421A7 /* Info.plist */,
 			);
 			path = HalfScreenPresentation;
+			sourceTree = "<group>";
+		};
+		ED58418D26A5E0F200D80CF1 /* otherVC */ = {
+			isa = PBXGroup;
+			children = (
+				ED58418E26A5E0FF00D80CF1 /* OtherVC.storyboard */,
+				ED58418F26A5E0FF00D80CF1 /* Other1ViewController.swift */,
+			);
+			path = otherVC;
+			sourceTree = "<group>";
+		};
+		ED82B8EB26A4F1A2001AC7DC /* GenericActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				ED4EE04626AA0C3100EE4A13 /* SheetSize.swift */,
+				ED82B8EC26A4F1A2001AC7DC /* GenericActionSheetInteractor.swift */,
+				ED82B8ED26A4F1A2001AC7DC /* GenericActionSheetRouter.swift */,
+				ED82B8EE26A4F1A2001AC7DC /* GenericActionSheetPresenter.swift */,
+				ED82B8EF26A4F1A2001AC7DC /* GenericActionSheetContract.swift */,
+				ED82B8F026A4F1A2001AC7DC /* GenericActionSheetViewController.swift */,
+				ED82B8F126A4F1A2001AC7DC /* GenericActionSheetView.swift */,
+			);
+			path = GenericActionSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +173,7 @@
 				86131C36266C7F19007421A7 /* LaunchScreen.storyboard in Resources */,
 				86131C33266C7F19007421A7 /* Assets.xcassets in Resources */,
 				86131C31266C7F0F007421A7 /* Main.storyboard in Resources */,
+				ED58419026A5E0FF00D80CF1 /* OtherVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +184,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED82B8F226A4F1A2001AC7DC /* GenericActionSheetInteractor.swift in Sources */,
 				86131C2E266C7F0F007421A7 /* ViewController.swift in Sources */,
+				ED82B8F526A4F1A2001AC7DC /* GenericActionSheetContract.swift in Sources */,
 				86131C3E266CB420007421A7 /* CustomModalViewController.swift in Sources */,
+				ED82B8F726A4F1A2001AC7DC /* GenericActionSheetView.swift in Sources */,
+				ED58419126A5E0FF00D80CF1 /* Other1ViewController.swift in Sources */,
 				86131C2A266C7F0F007421A7 /* AppDelegate.swift in Sources */,
+				ED82B8F426A4F1A2001AC7DC /* GenericActionSheetPresenter.swift in Sources */,
+				ED82B8F626A4F1A2001AC7DC /* GenericActionSheetViewController.swift in Sources */,
+				ED4EE04726AA0C3100EE4A13 /* SheetSize.swift in Sources */,
+				ED82B8F326A4F1A2001AC7DC /* GenericActionSheetRouter.swift in Sources */,
 				86131C2C266C7F0F007421A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +343,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZM68Y4E2HM;
+				DEVELOPMENT_TEAM = WBB986Q84P;
 				INFOPLIST_FILE = HalfScreenPresentation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +362,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZM68Y4E2HM;
+				DEVELOPMENT_TEAM = WBB986Q84P;
 				INFOPLIST_FILE = HalfScreenPresentation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
